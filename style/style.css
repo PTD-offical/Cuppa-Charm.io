@@ -108,6 +108,6 @@ header .right .buttons .sign-up {
 }
 
 header .right .buttons .sign-up:hover {
-  background-color: transparent;
+    background-color: transparent;
   transform: scale(1.1);
 }
