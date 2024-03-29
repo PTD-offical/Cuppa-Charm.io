@@ -34,3 +34,85 @@ header{
   top: 0px;
 
 }
+
+
+header .left{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 15px;
+}
+
+
+header .left h1 span{
+color: #76ABAE;
+}
+
+/* ############# */
+header .right{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 20px;
+}
+/* #################### */
+header .right .links{
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+}
+
+header .right .links a{
+  display: flex;
+  align-items: center;
+
+  transition: .6s;
+  cursor: pointer;
+}
+
+header .right .links a:hover{
+  transform: scale(1.2);
+  text-shadow: 0px 0px 10px #76ABAE;
+}
+
+/* ############################### */
+
+header .right .buttons{
+  display:flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+header .right .buttons button{
+  width: 100px;
+  height: 40px;
+
+  border: 1px solid white;
+  border-radius: 25px;
+
+  font-size: 19px;
+}
+
+header .right .buttons .sign-in{
+  background-color: transparent;
+  transition: all .6s;
+  cursor: pointer;
+}
+
+header .right .buttons .sign-in:hover{
+  background-color: #76ABAE;
+  transform: scale(1.1);
+}
+
+/* ############ */
+
+header .right .buttons .sign-up{
+  background-color: #76ABAE;
+transition: all .6s;
+cursor: pointer;
+}
+
+header .right .buttons .sign-up:hover{
+  background-color: transparent;
+  transform: scale(1.1);
+}
