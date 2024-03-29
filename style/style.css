@@ -1,7 +1,7 @@
-*{
+* {
   margin: 0;
   padding: 0;
-  
+
   box-sizing: border-box;
   text-decoration: none;
   font-family: Roboto;
@@ -9,16 +9,15 @@
   color: white;
 }
 
-body{
-  background-color:#222831;
+body {
+  background-color: #222831;
 }
 
 /* ################################ */
 
-header{
+header {
+  background-color: #31363f;
 
-  background-color: #31363F;
-    
   width: 100%;
   height: 60px;
 
@@ -29,61 +28,57 @@ header{
   flex-direction: row;
   align-items: center;
 
-
   position: sticky;
   top: 0px;
-
 }
 
-
-header .left{
+header .left {
   display: flex;
   justify-content: center;
   flex-direction: row;
   gap: 15px;
 }
 
-
-header .left h1 span{
-color: #76ABAE;
+header .left h1 span {
+  color: #76abae;
 }
 
 /* ############# */
-header .right{
+header .right {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   gap: 20px;
 }
 /* #################### */
-header .right .links{
+header .right .links {
   display: flex;
   flex-direction: row;
   gap: 18px;
 }
 
-header .right .links a{
+header .right .links a {
   display: flex;
   align-items: center;
 
-  transition: .6s;
+  transition: 0.6s;
   cursor: pointer;
 }
 
-header .right .links a:hover{
+header .right .links a:hover {
   transform: scale(1.2);
-  text-shadow: 0px 0px 10px #76ABAE;
+  text-shadow: 0px 0px 10px #76abae;
 }
 
 /* ############################### */
 
-header .right .buttons{
-  display:flex;
+header .right .buttons {
+  display: flex;
   flex-direction: row;
   gap: 15px;
 }
 
-header .right .buttons button{
+header .right .buttons button {
   width: 100px;
   height: 40px;
 
@@ -93,26 +88,26 @@ header .right .buttons button{
   font-size: 19px;
 }
 
-header .right .buttons .sign-in{
+header .right .buttons .sign-in {
   background-color: transparent;
-  transition: all .6s;
+  transition: all 0.6s;
   cursor: pointer;
 }
 
-header .right .buttons .sign-in:hover{
-  background-color: #76ABAE;
+header .right .buttons .sign-in:hover {
+  background-color: #76abae;
   transform: scale(1.1);
 }
 
 /* ############ */
 
-header .right .buttons .sign-up{
-  background-color: #76ABAE;
-transition: all .6s;
-cursor: pointer;
+header .right .buttons .sign-up {
+  background-color: #76abae;
+  transition: all 0.6s;
+  cursor: pointer;
 }
 
-header .right .buttons .sign-up:hover{
+header .right .buttons .sign-up:hover {
   background-color: transparent;
   transform: scale(1.1);
 }
